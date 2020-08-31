@@ -1,0 +1,9 @@
+stages:
+    - build
+    - test
+
+build node:
+    stage: build
+    image: node:current
+    script:
+        - ls
